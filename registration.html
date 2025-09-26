@@ -48,6 +48,17 @@
     .form-box input[type="submit"]:hover {
       background-color: #905c8f;
     }
+    .login-link {
+      margin-top: 15px;
+      font-size: 14px;
+    }
+    .login-link a {
+      color: #b37eb5;
+      text-decoration: none;
+    }
+    .login-link a:hover {
+      text-decoration: underline;
+    }
   </style>
   <script>
     function validateForm() {
@@ -68,7 +79,6 @@
 <body>
   <div class="container">
     <h2>Register Below!</h2>
-    <p>Already have an account? <a href="loginPage.html">Login here</a></p>
 
     <!-- Error message placeholder -->
     <p style="color:red;"><!-- Insert error message here if needed --></p>
@@ -89,6 +99,9 @@
 
         <input type="submit" value="Submit">
       </form>
+      <div class="login-link">
+        <p>Already have an account? <a href="loginPage.html">Login here</a></p>
+      </div>
     </div>
   </div>
 </body>
